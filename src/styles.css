@@ -1,0 +1,23 @@
+.App {
+  font-family: "Gilroy ExtraBold", "Inter", BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #ffffff; /* Changed to white */
+}
+
+body {
+  margin: 0;
+  background-color: #191919;
+  color: #ffffff; /* Changed to white */
+}
+
+@font-face {
+  font-family: "Gilroy ExtraBold";
+  src: local("Gilroy ExtraBold"),
+    url(./fonts/Gilroy-ExtraBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url(./fonts/Inter.ttf) format("truetype");
+}
